@@ -29,12 +29,14 @@
         }
     },
     "dependencies": {
+        "@module/first": "workspace:^1.0.0",
         "@types/classnames": "^2.2.10",
         "@types/react": "^16.9.53",
         "@types/react-dom": "^16.9.8",
         "classnames": "^2.2.6",
         "normalize.css": "^8.0.1",
         "react": "^17.0.1",
+        "react-dnd": "^15.1.1",
         "react-dom": "^17.0.1"
     },
     "devDependencies": {
