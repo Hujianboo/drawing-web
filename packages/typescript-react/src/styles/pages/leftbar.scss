@@ -1,0 +1,13 @@
+.left-bar{
+  position: absolute;
+  width: $left-width;
+  left: 0px;
+  top: 0px;
+  height: calc(100vh - 60px);
+  background: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: dashed 1px black ;
+}

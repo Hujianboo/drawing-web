@@ -19,7 +19,9 @@
             "@src/*": ["src/*"],
             "@images/*": ["src/images/*"],
             "@styles/*": ["src/styles/*"],
-            "@components/*": ["src/components/*"]
+            "@components/*": ["src/components/*"],
+            "@pages/*": ["src/pages/*"],
+            
         },
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,

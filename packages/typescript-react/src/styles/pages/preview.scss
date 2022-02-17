@@ -1,0 +1,10 @@
+.preview{
+  margin-left: $preview-margin-left;
+  border: dashed 1px black;
+  height: calc(100vh - 60px);
+  background: #fff;
+  display: flow-root;
+  &-container{
+    height: 100%;
+  }
+}

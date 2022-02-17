@@ -72,8 +72,10 @@ importers:
       prettier: ~2.1.2
       prettier-plugin-import-sort: ~0.0.6
       pretty-quick: ~3.1.0
+      re-resizable: ^6.9.1
       react: ^17.0.1
       react-dnd: ^15.1.1
+      react-dnd-html5-backend: ^15.1.2
       react-dom: ^17.0.1
       react-refresh: ~0.9.0
       regenerator-runtime: ~0.13.7
@@ -99,8 +101,10 @@ importers:
       '@types/react-dom': 16.9.14
       classnames: 2.3.1
       normalize.css: 8.0.1
+      re-resizable: 6.9.1_react-dom@17.0.2+react@17.0.2
       react: 17.0.2
       react-dnd: 15.1.1_c39f7e1b843c19489d8bd8e68fdd3314
+      react-dnd-html5-backend: 15.1.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@babel/core': 7.12.17
@@ -4129,6 +4133,10 @@ packages:
     resolution: {integrity: sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=}
     dev: true
 
+  /fast-memoize/2.5.2:
+    resolution: {integrity: sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==}
+    dev: false
+
   /fastest-levenshtein/1.0.12:
     resolution: {integrity: sha512-On2N+BpYJ15xIC974QNVuYGMOlEVt4s0EOI3wwMqOmK1fdDY+FN/zltPV8vosq4ad4c/gJ1KHScUn/6AWIgiow==}
     dev: true
@@ -6988,6 +6996,23 @@ packages:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
     dev: true
+
+  /re-resizable/6.9.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-KRYAgr9/j1PJ3K+t+MBhlQ+qkkoLDJ1rs0z1heIWvYbCW/9Vq4djDU+QumJ3hQbwwtzXF6OInla6rOx6hhgRhQ==}
+    peerDependencies:
+      react: ^16.13.1 || ^17.0.0
+      react-dom: ^16.13.1 || ^17.0.0
+    dependencies:
+      fast-memoize: 2.5.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /react-dnd-html5-backend/15.1.2:
+    resolution: {integrity: sha512-mem9QbutUF+aA2YC1y47G3ECjnYV/sCYKSnu5Jd7cbg3fLMPAwbnTf/JayYdnCH5l3eg9akD9dQt+cD0UdF8QQ==}
+    dependencies:
+      dnd-core: 15.1.1
+    dev: false
 
   /react-dnd/15.1.1_c39f7e1b843c19489d8bd8e68fdd3314:
     resolution: {integrity: sha512-QLrHtPU08U4c5zop0ANeqrHXaQw2EWLMn8DQoN6/e4eSN/UbB84P49/80Qg0MEF29VLB5vikSoiFh9N8ASNmpQ==}

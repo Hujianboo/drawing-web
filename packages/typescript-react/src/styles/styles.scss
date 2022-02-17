@@ -1,1 +1,16 @@
 @import '~normalize.css/normalize.css';
+//base
+@import './base/variable.scss';
+
+
+//components
+
+
+//pages
+@import './pages/app.scss';
+@import './pages/header.scss';
+@import './pages/leftbar.scss';
+@import './pages/preview.scss';
+#root{
+  display: flow-root;
+}
