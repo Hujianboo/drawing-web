@@ -1,0 +1,13 @@
+.movable-shape{
+  cursor: move;
+  display: inline-block;
+  user-select: none;
+  .rotate-svg{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    display: inline-block;
+    cursor: grabbing;
+  }
+}

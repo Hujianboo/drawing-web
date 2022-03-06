@@ -2,7 +2,6 @@ import React from 'react';
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import { useDrop } from 'react-dnd'
-
 const Content = ():React.ReactElement => {
   const [, dropRef] = useDrop(
     () => ({

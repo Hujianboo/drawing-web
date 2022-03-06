@@ -7,6 +7,4 @@ import ReactDom from 'react-dom';
 
 import App from '@src/pages/App';
 //@ts-ignorets-ignore
-import test from '@module/first';
-console.log(test);
 ReactDom.render(<App />, document.getElementById('root'));

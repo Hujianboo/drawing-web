@@ -1,0 +1,1 @@
+export { MovableShape } from 'MovableShape';
